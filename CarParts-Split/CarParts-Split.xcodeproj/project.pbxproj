@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		790912311C27C2AE00CF22FE /* AllWeatherRadial.m in Sources */ = {isa = PBXBuildFile; fileRef = 790912301C27C2AE00CF22FE /* AllWeatherRadial.m */; };
 		790B31CA1C25FADF00EDE2BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 790B31C91C25FADF00EDE2BF /* main.m */; };
 		790B31D51C25FC7300EDE2BF /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 790B31D41C25FC7300EDE2BF /* Engine.m */; };
-		799550E11C270E4B00BC7185 /* Slant.m in Sources */ = {isa = PBXBuildFile; fileRef = 799550E01C270E4B00BC7185 /* Slant.m */; };
+		799550E11C270E4B00BC7185 /* Slant6.m in Sources */ = {isa = PBXBuildFile; fileRef = 799550E01C270E4B00BC7185 /* Slant6.m */; };
 		799550E41C27149D00BC7185 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 799550E31C27149D00BC7185 /* Car.m */; };
 		799550E71C2714DA00BC7185 /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = 799550E61C2714DA00BC7185 /* Tire.m */; };
 /* End PBXBuildFile section */
@@ -27,12 +28,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7909122F1C27C1E500CF22FE /* AllWeatherRadial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllWeatherRadial.h; sourceTree = "<group>"; };
+		790912301C27C2AE00CF22FE /* AllWeatherRadial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllWeatherRadial.m; sourceTree = "<group>"; };
 		790B31C61C25FADF00EDE2BF /* CarParts-Split */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CarParts-Split"; sourceTree = BUILT_PRODUCTS_DIR; };
 		790B31C91C25FADF00EDE2BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		790B31D41C25FC7300EDE2BF /* Engine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
 		790B31D61C25FC9100EDE2BF /* Engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
-		799550DF1C270E1E00BC7185 /* Slant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slant.h; sourceTree = "<group>"; };
-		799550E01C270E4B00BC7185 /* Slant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slant.m; sourceTree = "<group>"; };
+		799550DF1C270E1E00BC7185 /* Slant6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slant6.h; sourceTree = "<group>"; };
+		799550E01C270E4B00BC7185 /* Slant6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Slant6.m; sourceTree = "<group>"; };
 		799550E21C27148100BC7185 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Car.h; path = ../Car.h; sourceTree = "<group>"; };
 		799550E31C27149D00BC7185 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Car.m; path = ../Car.m; sourceTree = "<group>"; };
 		799550E51C2714C800BC7185 /* Tire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
@@ -72,10 +75,12 @@
 				799550E31C27149D00BC7185 /* Car.m */,
 				799550E21C27148100BC7185 /* Car.h */,
 				799550E51C2714C800BC7185 /* Tire.h */,
+				7909122F1C27C1E500CF22FE /* AllWeatherRadial.h */,
+				790912301C27C2AE00CF22FE /* AllWeatherRadial.m */,
 				799550E61C2714DA00BC7185 /* Tire.m */,
 				790B31C91C25FADF00EDE2BF /* main.m */,
-				799550DF1C270E1E00BC7185 /* Slant.h */,
-				799550E01C270E4B00BC7185 /* Slant.m */,
+				799550DF1C270E1E00BC7185 /* Slant6.h */,
+				799550E01C270E4B00BC7185 /* Slant6.m */,
 				790B31D41C25FC7300EDE2BF /* Engine.m */,
 				790B31D61C25FC9100EDE2BF /* Engine.h */,
 			);
@@ -139,10 +144,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				799550E71C2714DA00BC7185 /* Tire.m in Sources */,
-				799550E11C270E4B00BC7185 /* Slant.m in Sources */,
+				799550E11C270E4B00BC7185 /* Slant6.m in Sources */,
 				790B31CA1C25FADF00EDE2BF /* main.m in Sources */,
 				799550E41C27149D00BC7185 /* Car.m in Sources */,
 				790B31D51C25FC7300EDE2BF /* Engine.m in Sources */,
+				790912311C27C2AE00CF22FE /* AllWeatherRadial.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

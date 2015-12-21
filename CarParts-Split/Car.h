@@ -1,4 +1,4 @@
-//
+///Users/richard/sandbox/oc/CarParts-Split/Car.h
 //  Car.h
 //  CarParts-Split
 //
@@ -9,8 +9,11 @@
 #ifndef Car_h
 #define Car_h
 #import <Cocoa/Cocoa.h>
-#import "Tire.h"
-#import "Engine.h"
+//#import "Tire.h"
+//#import "Engine.h"
+
+@class Tire;
+@class Engine;
 
 @interface  Car : NSObject
 {

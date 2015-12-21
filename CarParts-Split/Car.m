@@ -6,6 +6,8 @@
 //  Copyright © 2015 Richard Cao. All rights reserved.
 //
 
+#import "Engine.h"
+#import "Tire.h"
 #import "Car.h"
 
 @implementation Car

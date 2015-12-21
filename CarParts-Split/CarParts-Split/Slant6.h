@@ -1,19 +1,17 @@
 //
-//  Slant.m
+//  Slant.h
 //  CarParts-Split
 //
 //  Created by Richard Cao on 2015-12-20.
 //  Copyright © 2015 Richard Cao. All rights reserved.
 //
 
-#import "Slant.h"
+#ifndef Slant_h
+#define Slant_h
 
-@implementation Slant6
+#import "Engine.h"
 
-- (NSString *) description
-{
-    return (@"I am a slant-6. VROOOM!");
-} // description
-
+@interface Slant6 : Engine
 @end // Slant6
 
+#endif /* Slant_h */
